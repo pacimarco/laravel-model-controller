@@ -1,6 +1,6 @@
 @extends ('layout.app')
 
-@section('title','Home Page')
+@section('title','Elenco dei Film')
 
 @section('content')
 

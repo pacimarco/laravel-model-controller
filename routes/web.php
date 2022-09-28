@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PageController@index')->name('homepage');
     
+Route::get('/listaMovies','PageController@list')->name('movie_list');
