@@ -13,8 +13,9 @@ class PageController extends Controller
 
     public function list(){
         $movies = Movie::all();
-        /*foreach($movies as $movie) per stampare altre info*/
-        return view('list', compact('movies'));
+        foreach($movies as $movie) {
+        echo $movie->title . '<br>';
+    }
         return view('movie_list');
     }
 }
